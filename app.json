@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "HomeFit Nutrition",
+    "slug": "homefit-nutrition-camera",
+    "version": "1.4.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow HomeFit to scan food barcodes and load nutrition data."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.anthony.homefitnutritioncamera",
+      "permissions": [
+        "CAMERA"
+      ],
+      "versionCode": 5
+    },
+    "description": "HomeFit workout and nutrition tracker with polished UI, barcode scanning, weekly dashboard, water tracker, recent foods, streaks and GitHub EAS APK builds."
+  }
+}
