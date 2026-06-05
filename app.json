@@ -25,4 +25,8 @@
     },
     "description": "HomeFit workout and nutrition tracker with polished UI, barcode scanning, weekly dashboard, water tracker, recent foods, streaks and GitHub EAS APK builds."
   }
+}"extra": {
+  "eas": {
+    "projectId": "a98259d1-06c6-49b4-a7cd-ba434912f464"
+  }
 }
